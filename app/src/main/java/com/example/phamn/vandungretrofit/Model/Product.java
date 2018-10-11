@@ -1,10 +1,10 @@
-package com.example.phamn.testretrofit2.Model;
+package com.example.phamn.vandungretrofit.Model;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
-public class Products implements Serializable{
+public class Product implements Serializable{
     @SerializedName("id_product")
     private  int idProduct;
     @SerializedName("product_name")
@@ -16,7 +16,7 @@ public class Products implements Serializable{
     @SerializedName("thumnail")
     private  String thumnail;
 
-    public Products(int idProduct, String productName, String decription, String price, String thumnail) {
+    public Product(int idProduct, String productName, String decription, String price, String thumnail) {
         this.idProduct = idProduct;
         this.productName = productName;
         this.decription = decription;

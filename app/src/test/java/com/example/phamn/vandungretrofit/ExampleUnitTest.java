@@ -1,4 +1,4 @@
-package com.example.phamn.testretrofit2;
+package com.example.phamn.vandungretrofit;
 
 import org.junit.Test;
 
